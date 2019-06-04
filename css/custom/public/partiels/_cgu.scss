@@ -1,0 +1,61 @@
+.footer_border_top {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+    border-top: 1px dotted lime;
+    background: transparent;
+}
+
+.footer_cgu_main {
+	width: 85%;
+    height: auto;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    background: transparent;
+    margin-left: 10%;
+}
+
+// ***************
+// ***************
+// ***************
+
+.cgu_main {
+	width: 100%;
+	padding-top: 3%;
+	background: rgb(216,181,255);
+	background: -webkit-linear-gradient(bottom left, rgba(216,181,255,1) 0%, rgba(30,174,152,1) 100%);
+	background: -o-linear-gradient(bottom left, rgba(216,181,255,1) 0%, rgba(30,174,152,1) 100%);
+	background: linear-gradient(to top right, rgba(216,181,255,1) 0%, rgba(30,174,152,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8b5ff', endColorstr='#1eae98',GradientType=1 );
+}
+
+.cgu_main_title {
+    font-size: 50px;
+    margin-bottom: 3%;
+    letter-spacing: 2px;
+    font-family: $fontContrail;
+    text-align: center;
+}
+.cgu_main_container {
+    padding: 3%;
+    font-size: 15px;
+    width: 80%;
+    letter-spacing: 1.5px;
+    height: auto;
+    background-color: $colorWhite3;
+    margin-left: 10%;
+	text-align: center;
+}
+.cgu_content_h2 {
+	font-size: 45px;
+	margin-top: 3%;
+	letter-spacing: 0.5em;
+	color: $colorPurple1;
+}
+.cgu_content_h3 {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5em;
+    margin: 3%;
+}

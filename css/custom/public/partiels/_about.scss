@@ -1,0 +1,148 @@
+// **************************************
+// **************************************
+// ******   TITLE
+
+.about_title {
+    color: $colorGreen4;
+    padding-top: 4%;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-family: $fontMonoton;
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 0em 0em 3em #83ff00,
+                 0em 0em 2em #83ff00,
+                 1px 1px 5px #83ff00,
+                 0px 0px 15px #83ff00,
+                 1px 0px 0px white,
+                -1px 0px 2px rgba(0, 0, 0, .5);
+    @media screen and (max-width: $break-large) {
+        font-size: 30px;
+        letter-spacing: 25px; 
+        padding-top: 25%; 
+    }
+    @media screen and (max-width: $break-large-2) {
+        font-size: 30px;
+        letter-spacing: 25px; 
+        padding-top: 25%; 
+    }
+}
+
+// **************************************
+// **************************************
+// ******   SECTION 1
+
+
+.about_section1 {
+    display: inline-block;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 10%;
+    @media screen and (min-width: $break-small) and (max-width: $break-large) {
+        width: 100%;
+    }
+    @media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+        width: 100%;
+    }   
+}
+
+.about_title_1 {
+    width: 50%;
+    margin-left: 25%;
+    @media screen and (min-width: $break-small) and (max-width: $break-large) {
+        margin-left: 0;
+        width: 100%;    
+    }
+    @media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+        width: 100%;
+        margin-left: 0;
+    }   
+}
+
+.about_present {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    width: 65%;
+    font-family: $fontRaleway;
+    letter-spacing: 7px;
+    line-height: 20px;
+    font-size: 15px;
+    color: $colorGreen3;
+    @media screen and (min-width: $break-small) and (max-width: $break-large) {
+        width: 90%;
+        letter-spacing: 5px;
+        line-height: 12px;
+        font-size: 10px;
+    }
+    @media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+        width: 90%;
+        letter-spacing: 5px;
+        line-height: 12px;
+        font-size: 10px;
+    }
+}
+
+// **************************************
+// **************************************
+// *********** SECTION 2
+.background_stripes_about {
+    background: rgb(10,10,10);
+    background: linear-gradient(rgba(10,10,10,0.7),rgba(0,0,0,.9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px),
+    url('../../../img/backgrnd3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 115vh;
+    width: 100%;
+}
+
+.about_section2 {
+    width: 10%;
+    height: auto;
+    margin-top: 5%;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    @media screen and (min-width: $break-small) and (max-width: $break-large) {
+        width: 100%;
+        top: 80%;
+        right: 4%;
+    }
+    @media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+        width: 100%;
+        top: 80%;
+        right: 4%;
+    }
+}
+
+.image_profil {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid $colorGreen2;
+    box-shadow: 0px 0px 20px 1px rgba(0, 255, 0, 0.6);
+    @media screen and (min-width: $break-small) and (max-width: $break-large) {
+        width: 15%;
+    }
+    @media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+        width: 15%;
+    }
+}
+
+.profil_age {
+    font-family: "Monoton", cursive;
+    font-size: 30px;
+    color: $colorRed2;
+    margin-top: 5%;
+    @media screen and (min-width: $break-small) and (max-width: $break-large) {
+        font-size: 20px;
+    }
+    @media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+        font-size: 20px;
+    }
+}
+
+
+// **********************************
+// ********************************

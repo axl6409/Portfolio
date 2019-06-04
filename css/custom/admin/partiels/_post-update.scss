@@ -1,0 +1,57 @@
+.update_main {
+	text-align: center;
+	padding-top: 2%;
+}
+.update_title {
+	font-family: $fontAdmin1;
+	font-size: 50px;
+    letter-spacing: 30px;
+}
+
+.update_post {
+	width: 65%;
+	margin-left: 5%;
+}
+
+.update_post_sidebar {
+	position: fixed;
+    top: 20%;
+    right: 5%;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(229, 229, 229);
+    width: 20%;
+    height: auto;
+}
+.update_sidebar_section {
+	margin-bottom: 5%;
+}
+
+.update_sidebar_title {
+	border-bottom: 1px solid rgb(229, 229, 229);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.update_sidebar_content {
+	margin-bottom: 10%;
+}
+
+.update_editor {
+	float: left;
+	width: 100%;
+}
+
+.update_editor_title {
+	width: 80%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	font-size: 1.1em;
+}
+
+.update_submit {
+    width: 40%;
+    height: 25px;
+    background-color: grey;
+    border-radius: 2px;
+    border: 1px solid black;
+}

@@ -1,0 +1,15 @@
+// Class orient object
+
+.deco_none {
+	text-decoration: none;
+}
+
+.background1 {
+	background: rgb(10,10,10);
+	background: linear-gradient(rgba(10,10,10,.6),rgba(0,0,0,.9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px),
+	    url('../../img/backgrnd2.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+}

@@ -1,0 +1,116 @@
+.home_background {
+	background: rgb(10,10,10);
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(rgba(10,10,10,.6),rgba(0,0,0,.6)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px),
+	    url('../../../img/backgrnd2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.home_main {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	z-index: 1;
+}
+
+.blog_btn_container {
+	width: 100%;
+	position: absolute;
+	bottom: 1%;
+	text-align: center;
+}
+
+
+.blog_button {
+	padding: 20px 40px;
+	background: none;
+	color: $colorGreen3;
+	border: none;
+	position: relative;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+	cursor: pointer;
+	&:after, &:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		border: 1px solid $colorGreen3;
+		transition: transform .2s; 
+	}
+	&:after {
+		transform: translate(3px, 3px)	;
+	}
+	&:before {
+		transform: translate(-3px, -3px)  ;
+	}
+	&:hover {
+		&:after, &:before {
+			transform: translate(0)  ;
+			box-shadow: 0em 0em 3em $colorGreen3,
+		         0em 0em 2em $colorGreen3,
+		         1px 1px 5px $colorGreen3,
+		         0px 0px 15px $colorGreen3,
+		         1px 0px 0px white,
+		        -1px 0px 2px rgba(0, 0, 0, .5);
+		}
+	}
+
+}
+
+#glitch_wrapper {
+	text-align: center;
+	margin-top: 10%;
+	@media screen and (min-width: $break-small) and (max-width: $break-large) {
+		margin-top: 30%;
+	}
+	@media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+		margin-top: 30%;
+	}
+}
+
+.home_title {
+	font-size: 90px;
+	letter-spacing: 0.5em;
+	@media screen and (min-width: $break-small) and (max-width: $break-large) {
+		font-size: 30px;
+		letter-spacing: 10px;
+	}
+	@media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+		font-size: 30px;
+		letter-spacing: 10px;
+	}
+}
+
+.font_title {
+	font-family: $fontTitleMain;
+}
+
+
+
+// Subtext
+.sub {
+	color: $colorGreen4;
+	letter-spacing: 1.5em;
+	margin-top: 2%;
+	font-size: 20px;
+	@media screen and (min-width: $break-small) and (max-width: $break-large) {
+		letter-spacing: 7px;
+		font-size: 10px;
+	}
+	@media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+		letter-spacing: 7px;
+		font-size: 10px;
+	}
+}
+
+
+

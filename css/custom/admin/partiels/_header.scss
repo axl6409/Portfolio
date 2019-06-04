@@ -1,0 +1,53 @@
+// Header Main Stylesheet
+
+.header_main {
+	width: 5%;
+	height: 100%;
+	float: left;
+	background-color: $backColor1;
+	position: fixed;
+	left: 0;
+	z-index: 1;
+}
+
+.header_logo {
+	width: 100%;
+}
+
+// Header Main Stylesheet
+
+.header_main {
+	width: 5%;
+	height: 100%;
+	float: left;
+	background-color: $backColor1;
+	position: fixed;
+	left: 0;
+	z-index: 1;
+}
+
+.header_logo {
+	width: 100%;
+}
+
+.header_nav {
+	margin-top: 20%;
+}
+
+.header_icons {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.header_links {
+	color: rgba(153,153,153,0.8);
+}
+
+.notif_session_admin {
+	font-size: 20px;
+    color: $colorGreen3;
+    letter-spacing: 2px;
+}

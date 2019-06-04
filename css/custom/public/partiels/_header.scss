@@ -1,0 +1,175 @@
+// Header Main Stylesheet
+
+.header_main {
+	border-right: 1px solid #5CFF3C;
+	width: 3%;
+	height: 100%;
+	padding-bottom: 1%;
+	background-color: $backColor1;
+	position: fixed;
+	z-index: 99;
+	left: 0;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media screen and (min-width: $break-small) and (max-width: $break-large) {
+    	width: 100%;
+    	height: 6%;
+    	border-bottom: 1px solid #5CFF3C;
+    	border-right: 0px;
+    	flex-direction: row;
+    }
+
+    @media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+    	width: 100%;
+    	height: 6%;
+    	border-bottom: 1px solid #5CFF3C;
+    	border-right: 0px;
+    	flex-direction: row;
+    }
+    @media screen and (min-width: $break-small-3) and (max-width: $break-large-3) {
+    	width: 100%;
+    	height: 6%;
+    	border-bottom: 1px solid #5CFF3C;
+    	border-right: 0px;
+    	flex-direction: row;
+    }
+    
+
+
+}
+
+.header_logo_link {
+	width: 100%;
+	@media screen and (min-width: $break-small) and (max-width: $break-large) {
+		width: 10%;
+	}
+	@media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+		width: 10%;
+	}
+	@media screen and (min-width: $break-small-3) and (max-width: $break-large-3) {
+		width: 10%;
+	}
+}
+.header_logo {
+	width: 100%;
+	@media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+		width: 65%;
+	}
+	@media screen and (min-width: $break-small-3) and (max-width: $break-large-3) {
+		width: 65%;
+	}
+}
+
+.header_nav {
+	margin-top: 20%;
+	@media screen and (min-width: $break-small) and (max-width: $break-large) {
+		margin-top: 0;
+		width: 100%;
+		text-align: center;
+	}
+	@media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+		margin-top: 0;
+		width: 100%;
+		text-align: center;
+	}
+	@media screen and (min-width: $break-small-3) and (max-width: $break-large-3) {
+		margin-top: 0;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+.header_icons {
+	display: block;
+	padding: 10px;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	color: rgba(255, 255, 255, 0.01);
+    text-shadow: 0em 0em 3em #00FFFC,
+                 0em 0em 2em #00FFFC,
+                 1px 1px 5px #00FFFC,
+                 0px 0px 15px #00FFFC,
+                 1px 0px 0px white,
+                -1px 0px 2px rgba(0, 0, 0, .5);
+    @media screen and (min-width: $break-small) and (max-width: $break-large) {
+    	display: inline-block;
+    	margin-top: 0;
+    	margin-bottom: 0;
+    	font-size: 1em;
+    }
+    @media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+    	display: inline-block;
+    	margin-top: 0;
+    	margin-bottom: 0;
+    	font-size: 1em;
+    }
+    @media screen and (min-width: $break-small-3) and (max-width: $break-large-3) {
+    	display: inline-block;
+    	margin-top: 0;
+    	margin-bottom: 0;
+    	font-size: 1em;    
+    }
+}
+
+.header_links {
+	color: $colorWhite1;
+	@media screen and (min-width: $break-small) and (max-width: $break-large) {
+		font-size: 1em;
+	}
+	@media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+		font-size: 1em;
+	}
+	@media screen and (min-width: $break-small-3) and (max-width: $break-large-3) {
+		font-size: 1em;
+	}
+}
+.header_links:hover {
+	color: $colorGreen2;
+}
+
+.notif_session {
+	color: $colorGreen3;
+}
+
+.header_social_nav {
+	@media screen and (min-width: $break-small) and (max-width: $break-large) {
+		display: flex;
+		flex-direction: row;
+	}
+	@media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+		display: flex;
+		flex-direction: row;
+	}
+	@media screen and (min-width: $break-small-3) and (max-width: $break-large-3) {
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+.header_social {
+	color: $colorGreen2;
+	font-size: 1.5em;
+	margin-left: 20%;
+    margin-bottom: 70%;
+    @media screen and (min-width: $break-small) and (max-width: $break-large) {
+    	margin-left: 5px;
+    	margin-right: 5px;
+    	margin-top: 10px;
+    	font-size: 1em;
+    }
+    @media screen and (min-width: $break-small-2) and (max-width: $break-large-2) {
+    	margin-left: 5px;
+    	margin-right: 5px;
+    	margin-top: 10px;
+    	font-size: 1em;
+    }
+    @media screen and (min-width: $break-small-3) and (max-width: $break-large-3) {
+    	margin-left: 5px;
+    	margin-right: 5px;
+    	margin-top: 10px;
+    	font-size: 1em;
+    }
+}

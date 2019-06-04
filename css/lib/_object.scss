@@ -1,0 +1,44 @@
+// Class orient object
+
+.clear-b {
+	clear: both;
+}
+
+.deco_none {
+	text-decoration: none;
+}
+
+.text_info {
+	font-size: 15px;
+	color: green;
+}
+.text_alert {
+	font-size: 15px;
+	color: red;
+}
+
+
+.disp-in-block {
+	display: inline-block;
+}
+
+.disp-block {
+	display: block;
+}
+
+.flex_row_space {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.edit_separate {
+	width: 100%;
+	height: 50px;
+}
+
+.border_bttm_blog {
+	border-bottom: 4px double rgb(255,0,0);
+	padding-top: 5%;
+	margin-bottom: 5%;
+}

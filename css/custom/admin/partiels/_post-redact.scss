@@ -1,0 +1,76 @@
+.redact_main {
+	text-align: center;
+	padding-top: 2%;
+	width: 100%;
+}
+.redact_title {
+	font-family: $fontAdmin1;
+	font-size: 50px;
+    letter-spacing: 30px;
+    @media screen and (max-width: $break-large) {
+    	font-size: 35px;
+    }
+}
+
+.redact_post {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.redact_post_sidebar {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(229, 229, 229);
+    width: 20%;
+    height: auto;
+    @include box_shadow(1px, 1px, 5px, 1px, rgba(0,0,0,0.5));
+	@media screen and (max-width: $break-large) {
+    	width: 100%; 
+    	margin-bottom: 2%;  
+    }
+}
+.redact_sidebar_section {
+	margin-bottom: 5%;
+}
+
+.redact_sidebar_title {
+	border-bottom: 1px solid rgb(229, 229, 229);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.redact_sidebar_content {
+	margin-bottom: 10%;
+}
+
+.redact_editor {
+	width: 100%;
+}
+
+.post_editor_title {
+	width: 80%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	font-size: 1.1em;
+	@media screen and (max-width: $break-large) {
+		width: 99%;
+	}
+}
+
+.post_submit {
+    width: 40%;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 5px;
+    font-family: $fontTitleMain;
+    background-color: $colorBlack1;
+    border-radius: 2px;
+    border: 1px solid black;
+    margin-top: 15%;
+}
+
+.redact_sidebar {
+	float: right;
+}

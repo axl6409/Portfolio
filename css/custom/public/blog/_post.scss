@@ -1,0 +1,67 @@
+.post_container {
+    width: 70%;
+    background: white;
+    margin-left: 15%;
+    padding: 2%;
+    margin-top: 2%;
+    @media screen and (max-width: $break-large) {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+.post_thumbnail {
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3%;
+    padding-top: 15%;
+}
+.post_main_title {
+	font-family: $fontRaleway;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: $colorWhite3;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    @media screen and (max-width: $break-large) {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    @media screen and (max-width: $break-large-2) {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    @media screen and (max-width: $break-large-3) {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+}
+.second_container {
+	padding: 3%;
+    background-color: #dcdcdc;
+}
+.blog_post_content {
+	letter-spacing: 2px;
+	line-height: 30px;
+	font-family: $fontRaleway;
+    @media screen and (max-width: $break-large) {
+        letter-spacing: 1px;
+        overflow: hidden;
+
+    }
+    @media screen and (max-width: $break-large-2) {
+        letter-spacing: 1px;
+        overflow: hidden;
+
+    }
+    @media screen and (max-width: $break-large-3) {
+        letter-spacing: 1px;
+        overflow: hidden;
+    }
+}
+.blog_post_content h2 img {
+    width: 100%;
+}

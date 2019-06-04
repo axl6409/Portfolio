@@ -1,0 +1,52 @@
+$colorGreen1: rgba(8, 253, 216, 0.9);
+$colorGreen2: rgba(44,255,153,0.8);
+$colorGreen3: rgba(44,255,9,0.9);
+$colorGreen4: rgba(0,255,0,1);
+$colorBlue1: rgba(0,255,255,0.9);
+$colorBlue2: rgba(0,255,237,1);
+$colorRed1: rgba(255,44,65,0.8);
+$colorRed2: rgba(255,13,72,0.9);
+$colorRed3: rgba(255,0,0,1);
+$colorBlack1:  rgba(0,0,0,1);
+$colorWhite1: rgba(247,255,249,0.8);
+$colorWhite2: rgba(255,217,228,1);
+$colorWhite3: rgba(255,255,249,0.7);
+$backColor1: rgba(24,24,24,0.2);
+$colorPurple1: rgba(138,43,226,1);
+
+
+
+// Main Fonts
+
+// Fonts Google URL
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Monoton|Unica+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,,800,900');
+@import url('https://fonts.googleapis.com/css?family=Contrail+One');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+$fontTitleMain: 'Montserrat', sans-serif; 
+$fontAdmin1: 'Playfair Display', serif;
+$fontMonoton: 'Monoton', cursive;
+$fontMonoton2: 'Unica One', cursive;
+$fontRaleway: 'Raleway', sans-serif;
+$fontContrail: 'Contrail One', cursive;
+$fontMarker: 'Permanent Marker', cursive;
+
+
+
+
+
+$break-small: 320px;
+$break-large: 480px;
+
+$break-small-2: 485px;
+$break-large-2: 890px;
+
+$break-small-3: 895px;
+$break-large-3: 1200px;
+
+$break-small-4: 1210px;
+$break-large-4: 1620px;
